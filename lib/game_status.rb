@@ -10,7 +10,7 @@ def won?(board)
     "X won the middle row"
   elsif board[bottom_row_win[6]] == "X" && board[bottom_row_win[7]] == && board [bottom_row_win[8]] = "X"
     "X won the bottom row"
-  elsif board[left_row_win[0]] == "X" && board[left_row_win[3]] == && board [left_row_win[6]] = "X"
+  elsif board[left_column_win[0]] == "X" && board[left_column_win[3]] == && board [left_column_win[6]] = "X"
     "X won the left column"
   elsif board[center_column_win[0]] == "X" && board[center_column_win[3]] == && board [center_column_win[6]] = "X"
     "X won the center column"
