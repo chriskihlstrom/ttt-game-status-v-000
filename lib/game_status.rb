@@ -16,6 +16,8 @@ def won?(board)
     "X won the center column"
   elsif board[right_column_win[2]] == "X" && board[right_column_win[5]] == && board [right_column_win[8]] = "X"
     "X won the right column"
+  elsif board[right_column_win[2]] == "X" && board[right_column_win[5]] == && board [right_column_win[8]] = "X"
+    "X won the right column"
   end
 end
 # Define your WIN_COMBINATIONS constant
