@@ -11,9 +11,9 @@ def won?(board)
   elsif board[bottom_row_win[6]] == "X" && board[bottom_row_win[7]] == && board [bottom_row_win[8]] = "X"
     "X won the bottom row"
   elsif board[left_row_win[0]] == "X" && board[left_row_win[3]] == && board [left_row_win[6]] = "X"
-    "X won the Left row"
+    "X won the Left column"
   elsif board[center_row_win[0]] == "X" && board[center_row_win[3]] == && board [center_row_win[6]] = "X"
-    "X won the center row"
+    "X won the center column"
   end
 end
 # Define your WIN_COMBINATIONS constant
@@ -21,9 +21,9 @@ WIN_COMBINATIONS = [
   [0,1,2], #Top row
   [3,4,5], #Middle row
   [6,7,8], #Bottom row
-  [0,3,6], #Left row
-  [1,4,7], #center row
-  [2,5,8], #Right row
+  [0,3,6], #Left column
+  [1,4,7], #center column
+  [2,5,8], #Right column
   [0,4,8], #diagonal top left
   [2,4,6]  #diagonal top right
 ]
