@@ -12,10 +12,10 @@ def won?(board)
     "X won the bottom row"
   elsif board[left_column_win[0]] == "X" && board[left_column_win[3]] == && board [left_column_win[6]] = "X"
     "X won the left column"
-  elsif board[center_column_win[0]] == "X" && board[center_column_win[3]] == && board [center_column_win[6]] = "X"
+  elsif board[center_column_win[1]] == "X" && board[center_column_win[4]] == && board [center_column_win[7]] = "X"
     "X won the center column"
-  elsif board[center_column_win[0]] == "X" && board[center_column_win[3]] == && board [center_column_win[6]] = "X"
-    "X won the center column"
+  elsif board[right_column_win[2]] == "X" && board[right_column_win[5]] == && board [right_column_win[8]] = "X"
+    "X won the right column"
   end
 end
 # Define your WIN_COMBINATIONS constant
