@@ -18,7 +18,7 @@ def won?(board)
     "X won the right column"
   elsif board[top_right_diag_win[0]] == "X" && board[top_right_diag_win[4]] == && board [top_right_diag_win[8]] = "X"
     "X won the top right diagonal"
-  elsif board[top_left_diag_win[0]] == "X" && board[top_left_diag_win[4]] == && board [top_left_diag_win[8]] = "X"
+  elsif board[top_left_diag_win[2]] == "X" && board[top_left_diag_win[4]] == && board [top_left_diag_win[6]] = "X"
     "X won the top left diagonal"
   end
 end
